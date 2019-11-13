@@ -39,12 +39,4 @@ for ( let i = 0; i < prgSplit.length; i++) {
 }
 console.log(count);
 
-// Palindromes
-let str = prompt('Please enter your text');
-let regx = /[\W_]/g
-let regStr = str.toLowerCase().replace(regx, '');
-let revStr = [...regStr].reverse().join('')
-if ( regStr === revStr ) console.log(`${str} is a palindrome`)
-else console.log(`Sorry, ${str} is not a palindrome`)
-
 // Delio's Practice Submit
